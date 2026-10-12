@@ -1,0 +1,190 @@
+body {
+    background-color: #eeeeee;
+    background-image: linear-gradient(#eeeeee, #d6d6d6);
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111111;
+    background-image: linear-gradient(to right, #111111, #444444);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 5px solid #888888;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.subtitle {
+    color: #dddddd;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid #999999;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.content {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    border-left: 6px solid #333333;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #222222;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 8px;
+}
+
+p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.center {
+    text-align: center;
+}
+
+.profile {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: white;
+}
+
+.school-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #333333;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #eeeeee;
+}
+
+.motto {
+    color: #555555;
+    font-style: italic;
+    border: 2px dashed #999999;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.color-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.color-box {
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #333333;
+    border-radius: 8px;
+}
+
+.black-box {
+    background-color: black;
+    color: white;
+    border-color: #555555;
+}
+
+.white-box {
+    background-color: white;
+    color: black;
+    border-color: #999999;
+}
+
+ul, ol {
+    line-height: 2;
+}
+
+li {
+    color: #333333;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top: 4px solid #888888;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 0 12px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
